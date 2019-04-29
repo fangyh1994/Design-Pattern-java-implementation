@@ -1,3 +1,9 @@
+// The interface Coffee defines the functionality of Coffee implemented by decorator
+interface Coffee {
+    double getCost(); // Returns the cost of the coffee
+    String getIngredients(); // Returns the ingredients of the coffee
+}
+
 // Abstract decorator class - note that it implements Coffee interface
 public abstract class CoffeeDecorator implements Coffee {
     protected final Coffee decoratedCoffee;
