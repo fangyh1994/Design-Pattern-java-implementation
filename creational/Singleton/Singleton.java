@@ -1,5 +1,7 @@
 /*
 Ensure a class only has one instance, and provide a global point of access to it.
+
+The private constructor makes sure that this object of this class is created by "getInstance()" method instead of using a constructor
 */
 
 /*
